@@ -129,11 +129,11 @@ def make_transaction():
     #Create a 16 alphanumeric randome string for unique References
     ref= "".join([random.choice(string.ascii_letters+string.digits) for _ in range(16)])
 
-    email = "Akinloluojo1@gmail.com"
+    email = "sample@gmail.com"
     amount = 200000
-    phone_number = '080123456789'
-    full_name = 'Ayobami Akinlolu-ojo'
-    use_auth = True # Perform some action when the condition is met and use_auth is False
+    phone_number = '08***********'
+    full_name = 'John Doe'
+    use_auth = True #  This alow user Permssion  or Autorization if Fasle User will autorize each payment Perform some action when the condition is met and use_auth is False
 
 
     """THIS ENDPOINT ALLOW YOU TO GENERATE CHECKOUT LINK AND CHARGE THE CUSTOMER DIRECTLY LIKE A POP UP"""
